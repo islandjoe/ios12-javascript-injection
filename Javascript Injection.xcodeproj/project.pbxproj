@@ -17,6 +17,7 @@
 		0A27FDA022E05A53004C47BD /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A27FD9E22E05A53004C47BD /* MainInterface.storyboard */; };
 		0A27FDA422E05A53004C47BD /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A27FD9822E05A53004C47BD /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0A27FDAA22E062A2004C47BD /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A27FDA922E062A2004C47BD /* Action.js */; };
+		0AA4A54F22E47C7600D0944F /* hero.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4A54E22E47C7600D0944F /* hero.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		0A27FD9F22E05A53004C47BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		0A27FDA122E05A53004C47BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A27FDA922E062A2004C47BD /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		0A6072BB22E10D5000637FFC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0AA4A54E22E47C7600D0944F /* hero.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hero.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 		0A27FD7622E054DE004C47BD = {
 			isa = PBXGroup;
 			children = (
+				0AA4A54D22E47C6300D0944F /* assets */,
+				0A6072BB22E10D5000637FFC /* README.md */,
 				0A27FD8122E054DE004C47BD /* Javascript Injection */,
 				0A27FD9922E05A53004C47BD /* Extension */,
 				0A27FD8022E054DE004C47BD /* Products */,
@@ -118,6 +123,14 @@
 				0A27FDA922E062A2004C47BD /* Action.js */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		0AA4A54D22E47C6300D0944F /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				0AA4A54E22E47C7600D0944F /* hero.gif */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +216,7 @@
 			files = (
 				0A27FD8D22E054E0004C47BD /* LaunchScreen.storyboard in Resources */,
 				0A27FD8A22E054E0004C47BD /* Assets.xcassets in Resources */,
+				0AA4A54F22E47C7600D0944F /* hero.gif in Resources */,
 				0A27FD8822E054DE004C47BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
